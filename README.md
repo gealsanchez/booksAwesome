@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
 
 **[Awesome Books]** "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.
@@ -96,7 +96,6 @@ After you're finished please remove all the comments and instructions!
 
 - **[ES6 syntax]**
 - **[Modular JavaScript]**
-- **[Webpack]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +131,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone [https://github.com/gealsanchez/LeaderBoard.git]
+  git clone [(https://github.com/gealsanchez/booksAwesome.git)]
 ```
 
 ### Install
