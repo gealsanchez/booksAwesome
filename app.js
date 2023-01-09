@@ -33,6 +33,8 @@ class Store {
     localStorage.setItem('books', JSON.stringify(books));
     this.count += 1;
   }
+
+  //  REMOVEBOOK
 }
 const store = new Store();
 
@@ -56,6 +58,7 @@ class UI {
     bookList.appendChild(content);
   }
 
+  //  DELETEBOOK
   static clearFields() {
     document.querySelector('#title').value = '';
     document.querySelector('#author').value = '';
@@ -64,6 +67,7 @@ class UI {
 
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
+//  ADD BOOK
 document.querySelector('#book-form').addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -76,3 +80,5 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
   store.addBook(book);
   UI.clearFields();
 });
+
+//  REMOVE BOOK
