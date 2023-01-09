@@ -35,6 +35,12 @@ class Store {
   }
 
   //  REMOVEBOOK
+
+  removeBook(id) {
+    const books = this.getBooks();
+    const filteredBooks = books.filter((book) => book.id !== id);
+    localStorage.setItem('books', JSON.stringify(filteredBooks));
+    } 
 }
 const store = new Store();
 
@@ -59,6 +65,13 @@ class UI {
   }
 
   //  DELETEBOOK
+
+  static deleteBook(element) {
+    if (element.classList.contains('delete')) {
+    element.parentElement.remove();
+    }
+  }
+
   static clearFields() {
     document.querySelector('#title').value = '';
     document.querySelector('#author').value = '';
@@ -82,3 +95,13 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 });
 
 //  REMOVE BOOK
+
+document.querySelector('#book-list').addEventListener('click', (e) => {
+  UI.deleteBook(e.target);
+  const btnID = e.target.id;
+  const arrValues = btnID.split('-');
+  const idString = arrValues[arrValues.length - 1];
+  const id = parseInt(idString, 10);
+  // Remove book from store
+  store.removeBook(id);
+  }); 
