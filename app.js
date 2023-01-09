@@ -40,7 +40,7 @@ class Store {
     const books = this.getBooks();
     const filteredBooks = books.filter((book) => book.id !== id);
     localStorage.setItem('books', JSON.stringify(filteredBooks));
-    } 
+  }
 }
 const store = new Store();
 
@@ -68,7 +68,7 @@ class UI {
 
   static deleteBook(element) {
     if (element.classList.contains('delete')) {
-    element.parentElement.remove();
+      element.parentElement.remove();
     }
   }
 
@@ -104,4 +104,4 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   const id = parseInt(idString, 10);
   // Remove book from store
   store.removeBook(id);
-  }); 
+});
