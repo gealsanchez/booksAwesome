@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="./src/images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Leaderboard Project</b></h3>
+  <h2><b>Awesome Books</b></h2>
 
 </div>
 
