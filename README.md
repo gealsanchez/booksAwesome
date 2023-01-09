@@ -65,7 +65,6 @@ After you're finished please remove all the comments and instructions!
 ## 🛠 Built With <a name="built-with"></a>
 - HTML, CSS & Javascript
 - GitHub
-- Webpack
 - Node
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -184,7 +183,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Jesus Molina**
+
+- GitHub: [@Sparktan24](https://github.com/Sparktan24)
+- Twitter: [@Sparktan1](https://twitter.com/Sparktan1)
+- LinkedIn: [Jesus Molina](https://www.linkedin.com/in/jesus-molina-2b104424a/) 
+
+👤 **Gerson Sanchez**
 
 - GitHub: [@githubhandle](https://github.com/gealsanchez)
 - Twitter: [@twitterhandle](https://twitter.com/gealsanchez)
