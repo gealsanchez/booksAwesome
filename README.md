@@ -60,7 +60,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Leaderboard] <a name="about-project"></a>
 
 
-**[Leaderboard]** Website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+**[Awesome Books]** "Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML, CSS & Javascript
