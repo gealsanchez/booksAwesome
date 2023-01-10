@@ -35,7 +35,6 @@ class Store {
   }
 
   //  REMOVEBOOK
-
   removeBook(id) {
     const books = this.getBooks();
     const filteredBooks = books.filter((book) => book.id !== id);
@@ -55,17 +54,15 @@ class UI {
 
     const content = document.createElement('div');
     content.innerHTML = `
-    <div>${book.title}</div>
-    <div>${book.author}</div>
+    <div>${book.title}  By  ${book.author}</div>
     <button id="book-num-${book.id}"class="delete">Remove</button>
-    <hr>
     `;
 
     bookList.appendChild(content);
+    content.classList.add('book-row-content');
   }
 
   //  DELETEBOOK
-
   static deleteBook(element) {
     if (element.classList.contains('delete')) {
       element.parentElement.remove();
@@ -95,7 +92,6 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
 });
 
 //  REMOVE BOOK
-
 document.querySelector('#book-list').addEventListener('click', (e) => {
   UI.deleteBook(e.target);
   const btnID = e.target.id;
