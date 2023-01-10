@@ -201,7 +201,7 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Send and receive data from an API]**
-- [ ] **[JSON]**
+- [ ] **[Navigation Bar]**
 - [ ] **[Asynchronous code]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
