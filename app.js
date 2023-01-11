@@ -1,4 +1,3 @@
-import { DateTime } from './src/luxon.js';
 
 /* eslint-disable max-classes-per-file */
 class Book {
