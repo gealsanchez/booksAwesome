@@ -6,8 +6,9 @@ body {
 }
 
 .nav-bar-container {
-  border: 1px solid black;
+  border: 1px solid #dfd7d7;
   margin: 0 10px;
+  box-shadow: rgb(0 0 0 / 16%) 0 1px 10px;
 }
 
 .nav-bar {
@@ -59,9 +60,9 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  border: 3px solid grey;
   line-height: 200%;
   width: 100%;
+  box-shadow: rgb(0 0 0 / 16%) 0 1px 7px;
 }
 
 .book-row-content {
@@ -89,13 +90,6 @@ body {
   font-family: 'Dosis', sans-serif;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
-}
-
-.guide-bar {
-  width: 150px;
-  height: 16px;
-  border-bottom: 1px solid rgb(211, 209, 209);
-  margin: 0 auto 54px;
 }
 
 .book-form {
@@ -156,8 +150,8 @@ body {
 }
 
 .footer-container {
-  border: 1px solid black;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
+  border: 1px solid #dfd7d7;
+  box-shadow: rgb(0 0 0 / 16%) 0 1px 10px;
   margin: 0 10px;
   position: fixed;
   width: 97%;
@@ -187,7 +181,7 @@ body {
   right: 120px;
 }
 
-.contact-list{
+.contact-list {
   font-size: 20px;
 }
 
