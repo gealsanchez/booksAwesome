@@ -103,7 +103,7 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   store.removeBook(id);
 });
 
-const dt = DateTime.now();
+// const dt = DateTime.now();
 
 document.getElementById('date').innerHTML = Date();
 
