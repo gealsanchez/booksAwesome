@@ -1,3 +1,5 @@
+import { DateTime } from './src/luxon.js';
+
 /* eslint-disable max-classes-per-file */
 class Book {
   constructor(title, author, id) {
@@ -100,4 +102,31 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   const id = parseInt(idString, 10);
   // Remove book from store
   store.removeBook(id);
+});
+
+const dt = DateTime.now();
+
+document.getElementById('date').innerHTML = Date();
+
+const list = document.querySelector('#list');
+const addNew = document.querySelector('#add-new');
+const contact = document.querySelector('#contact');
+const tableContainer = document.querySelector('.books-table-container');
+const booksForm = document.querySelector('.book-form');
+const contactInfo = document.querySelector('.contact-info');
+
+list.addEventListener('click', () => {
+  tableContainer.classList.remove('hide');
+  booksForm.classList.add('hide');
+  contactInfo.classList.add('hide');
+});
+addNew.addEventListener('click', () => {
+  booksForm.classList.remove('hide');
+  contactInfo.classList.add('hide');
+  tableContainer.classList.add('hide');
+});
+contact.addEventListener('click', () => {
+  contactInfo.classList.remove('hide');
+  booksForm.classList.add('hide');
+  tableContainer.classList.add('hide');
 });

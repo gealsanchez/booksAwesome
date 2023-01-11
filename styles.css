@@ -48,6 +48,7 @@ body {
 }
 
 .books-table-container {
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,4 +143,60 @@ body {
   cursor: pointer;
   position: relative;
   left: 180px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.footer-container {
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
+  margin: 0 10px;
+  position: fixed;
+  width: 97%;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin: 0 50px;
+}
+
+.info-title {
+  margin-top: 5%;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.info-description1 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.info-description2 {
+  font-size: 20px;
+  margin-top: 5px;
+  right: 120px;
+}
+
+.contact-list{
+  font-size: 20px;
+}
+
+.date-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.date-container p {
+  margin-right: 15px;
 }
